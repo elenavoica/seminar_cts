@@ -1,0 +1,10 @@
+Code Review 
+
+1. Name conventions + magic numbers
+- the class name does not suggest the class scope 
+- function name is not ok: 
+-- name of the arguments 
+--result variable to be renamed. value too
+
+- delete/change hard-coded values from your code
+- input data is not validated
