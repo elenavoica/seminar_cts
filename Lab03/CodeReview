@@ -8,3 +8,7 @@ Code Review
 
 - delete/change hard-coded values from your code
 - input data is not validated
+
+2. single responsability + kiss for functions
+- method calcultes too many intermediate values 
+- some changes are repetitive
