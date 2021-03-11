@@ -1,4 +1,4 @@
-package ro.ase.cts.csie.g1088.lab03;
+package ro.ase.cts.csie.g1088.lab3;
 
 //initial class
 
