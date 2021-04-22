@@ -8,11 +8,16 @@ public class ProxyTest {
 		if(login.login("admin", "workpls"))
 			System.out.println("hello amin");
 		
-		String[] passwords = new String[] {"1234" , "will", "i", "finish", "college", "idk", "workpls"};
+		//add proxy
+		login = new ProxyLogin(login);
+		
+		String[] passwords = new String[] {"1234" , "workpls", "will", "i", "finish", "college", "idk"};
 		for(String password : passwords) {
 			if(login.login("admin", password))
-				System.out.println("found the password" + password);
+				System.out.println("found the password: " + password);
 		}
+		
+		System.out.println("Game over");
 	}
 
 }
