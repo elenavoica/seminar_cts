@@ -14,7 +14,6 @@ public class FlyweigghtTest {
 		
 		FlyweightModel3D.getModel(Model3DType.BUILDING).showScreen(building1);
 		FlyweightModel3D.getModel(Model3DType.BUILDING).showScreen(building2);
-
 	}
 
 }
