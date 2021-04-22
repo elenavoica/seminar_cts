@@ -8,12 +8,12 @@ public class FlyweigghtTest {
 		ScreenData building1 = new ScreenData(10, 10, 0, "Grey");
 		ScreenData building2 = new ScreenData(107, 150, 0, "Brown");
 		
-		FlyweightInterfaceModel3D solderModel = FlyweightModel3D.getModel(Model3DType.SOLDER);
+		FlyweightInterfaceModel3D solderModel = FactoryModel3D.getModel(Model3DType.SOLDER);
 		solderModel.showScreen(solder1);
 		solderModel.showScreen(solder2);
 		
-		FlyweightModel3D.getModel(Model3DType.BUILDING).showScreen(building1);
-		FlyweightModel3D.getModel(Model3DType.BUILDING).showScreen(building2);
+		FactoryModel3D.getModel(Model3DType.BUILDING).showScreen(building1);
+		FactoryModel3D.getModel(Model3DType.BUILDING).showScreen(building2);
 	}
 
 }
