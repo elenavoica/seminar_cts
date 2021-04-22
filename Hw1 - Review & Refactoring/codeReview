@@ -1,0 +1,28 @@
+1. Structura proiect:
+-- enumerarea tipurilor de cont se transforma intr-o clasa de tip enum: TipCont
+-- metoda getRataLunara(), deoarece se foloseste in toate clasele, va fi integrata 
+intr-o interfata 
+-- denumirea pachetului nu corespunde conventiilor, 
+cea corecta este: ro.ase.csie.cts.g1088.homework
+
+2. Functii:
+
+-- afisare prin stringBuiler/Buffer, nu prin sysout 
+-- fct imprumut() trebuie sa fie de tip getter => getImprumut()
+-- fctiile get si set trebuie sa fie grupate pentru a fi codul cat mai fluid
+-- accesarea atributelor se face fie prin numele variabilei, fie prin this.numele variabilei
+-- fct getRataLunara trb trebuie inclusa intr-o interfata
+-- functia calculeaza() are denumire vaga, nu sugereaza ce face functia
+ => redenumire calculeazaComision()
+ -- stergere functie print()
+ -- functia to_String() trebuie scrisa prin suprascriere
+ -- constructor default private
+ -- exceptia aruncata de constructor sa fie particularizata (noua clasa)
+ 
+ 3. Denumire variabile:
+ 
+ -- formatul variaza, se foloseste camelCase
+ -- atributele statice au nevoie de denumiri sugestive
+ -- atributele statice denumesc tipuri de conturi, incluse intr-un enum
+ -- variabila temp face referire la nr de zile dintr-un an 
+ => poate fi numita zileAn
