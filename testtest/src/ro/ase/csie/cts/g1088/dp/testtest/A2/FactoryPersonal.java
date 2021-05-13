@@ -14,6 +14,15 @@ public class FactoryPersonal {
 		case MEDIC:
 			personal = new PersonalMedic();
 			break;
+		case RECEPTIONER:
+			personal = new PersonalReceptioner();
+			break;
+		case ANESTEZIST:
+			personal = new PersonalAnestezist();
+			break;
+		case STAGIAR:
+			personal = new PersonalStagiar();
+			break;
 		default:
 			throw new UnsupportedOperationException();
 		}		
