@@ -11,7 +11,7 @@ public class Main {
 		medicamenteSpeciale.add(new MedicamentSpital(true, "algocalmin"));
 
 		
-		InterfataMedicament medicament = new MedicamentSpital(false, "paracetamol");
+		InterfataMedicament medicament = new MedicamentSpital(true, "paracetamol");
 		AdapterMedicament adapter = new AdapterMedicament(medicament);
 		medicamente.add(adapter);
 		
