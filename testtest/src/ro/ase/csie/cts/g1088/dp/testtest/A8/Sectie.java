@@ -13,4 +13,9 @@ public class Sectie implements Node {
 		return name;
 	}
 
+	@Override
+	public void print(String tabs) {
+		System.out.println(tabs + name);
+	}
+
 }

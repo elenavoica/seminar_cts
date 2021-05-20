@@ -7,15 +7,17 @@ public class Main {
 		Sectie s3 = new Sectie("sectie 3");
 		Sectie s4 = new Sectie("sectie 4");
 		
-		Departament d1 = new Departament();
-		Departament d2 = new Departament();
-		Departament d3 = new Departament();
+		Departament d1 = new Departament("d1");
+		Departament d2 = new Departament("d2");
+		Departament d3 = new Departament("d3");
 		
-		d1.addNode(s1);
-		d1.addNode(s2);
-		d2.addNode(s3);
+		d1.addNode(d2);
+		d1.addNode(s3);
+		d2.addNode(d3);
+		d2.addNode(s1);
 		d3.addNode(s4);
+		d3.addNode(s2);
 		
-		System.out.println(d1.getName());
+		d1.print("");
 	}
 }
